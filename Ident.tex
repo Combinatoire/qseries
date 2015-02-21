@@ -62,7 +62,7 @@ génératrice des k partitions.
 Pour $a \rightarrow \infty$
 \eq{Lebesgue}{
 \sum
-\frac{q^{{n+1} \choose 2}(b)_n}{(q)_n}=
+\frac{q^{{n+1} \choose {2}}(b)_n}{(q)_n}=
 \frac{(bq;q^2)_\infty}{(q;q^2)_\infty}
 }
 %q-Pfaff-Saclshatz
@@ -81,7 +81,7 @@ Pour $b\rightarrow 0$
 }
 % Binomial
 \eq{}{
-\sum_{n=0}^{N}z^nq^{2 \choose k+1} {k \brack n} =(-zq)_n
+\sum_{n=0}^{N}z^nq^{{k+1} \choose {2}} {n \brack k} =(-zq)_n
 }
 % q-Gauss
 \eq{q-Gauss}{
@@ -92,12 +92,12 @@ Pour $b\rightarrow 0$
 }
 
 %Jacobi
-\eq{Jacobi}{\sum_{n\in\mathbb{Z}} z^nq^{2\choose n+1} =
+\eq{Jacobi}{\sum_{n\in\mathbb{Z}} z^nq^{{n+1}\choose 2} =
 (\frac{1}{z})_\infty(-zq)_\infty(q)_\infty}
 \eq{Corollaire Jacobi}{\sum_{n\in\mathbb{Z}} (-1)^nq^{\frac{n(3n+1)}{2}} =
 (q)_\infty}
 
-\eq{Corollaire Jacobi}{\sum_{n\in\mathbb{Z}} q^{2 \choose n+1} =
+\eq{Corollaire Jacobi}{\sum_{n\in\mathbb{Z}} q^{{n+1} \choose 2} =
 \frac{(q^2;q^2)_\infty}{(q;q^2)_\infty}}
 
 \eq{Corollaire Jacobi}{\sum_{n\in\mathbb{Z}} (-1)^nq^{2} =
