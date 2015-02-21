@@ -1,0 +1,7 @@
+# LaTeX files #
+*.aux
+*.log
+*.pdf
+
+# Emacs file #
+*~
