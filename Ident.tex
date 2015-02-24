@@ -103,6 +103,37 @@ Pour $b\rightarrow 0$
 \eq{Corollaire Jacobi}{\sum_{n\in\mathbb{Z}} (-1)^nq^{2} =
 \frac{(q)_\infty}{(-q)_\infty}}
 
+%Propriétés modulo
+\eq{}{p(7n + 5) = 0 \pmod 7}
 
+\eq{}{p(11n + 6) = 0 \pmod {11}}
+
+\eq{}{\beta_k = k 4^{-1} \pmod {5^k} \Rightarrow p(5^k n + \beta_k) = 0 \pmod {5^k}}
+
+\eq{}{M(r,5,5n+4) = \frac{1}{5} p(5n + 4)}
+
+\eq{}{M(r,7,7n+5) = \frac{1}{7} p(7n + 5)}
+
+\eq{}{M(r,11,11n+6) = \frac{1}{11} p(11n + 6)}
+
+\subsection{Petits choses potentiellement utiles}
+
+Le nombre de partitions en $n$ parts impaires est égal au nombre de partitions en parts distinctes. 
+Bijection en fusionnant tant que possible les parts de même taille.
+
+
+Le nombre de partitions de $n$ en parts non-divisibles par $k$ est égal au nombre de partitions de $n$ où chaque part apparaît au plus $k-1$ fois. 
+Bijection en regroupant les parts qui apparaissent $\ge k$ fois.
+
+
+Le nombre de partitions de $n$ n'ayant rien en dessous du carré de Durfee est égal au nombre de partitions de $n$ en parts qui diffèrent d'au moins 2.
+Bijection en cassant le carré de Durfee en 2 selon la diagonale et en recollant dans l'autre sens.
+
+Le \textbf{rang} d'une partition est égal à la taille de la plus grande part moins le nombre de parts.
+
+Le \textbf{crank} d'une part est la taille de la plus grande part s'il n'y a pas de $1$, sinon le nombre de parts plus grandes
+que le nombre de $1$ moins le nombre de $1$.
+
+On note $M(r,m,n)$ le nombre de partitions de $n$ avec crank égal à $r \pmod m$.
 
 \end{document}
